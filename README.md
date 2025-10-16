@@ -1,4 +1,4 @@
-# Apollonia Book Management
+# Book Management
 
 A full-stack CRUD web application for managing books at Apollonia Library. This project allows you to create, read, update, and delete book records through a web interface and REST API backend.
 
@@ -60,7 +60,7 @@ Copy code
 ## Installation
 
 1. Clone the repository:
-```bash
+bash
 git clone <your-repo-url>
 cd apollonia-book-management
 Start the application using Docker Compose:
@@ -69,25 +69,24 @@ bash
 Copy code
 docker-compose up
 This will run:
-
 MongoDB on port 27017
-
 Node.js backend on port 5000
 
-Usage
+---
+
+## Usage
 Open frontend/index.html in your browser.
 
 Use the web UI to:
-
 Add a new book (Title, Author, Genre, Year)
-
 View all books in a list
-
 Delete books
 
 All operations are persisted in the MongoDB database.
 
-API Endpoints
+---
+
+## API Endpoints
 Books
 Method	Endpoint	Description
 GET	/api/books	Retrieve all books
@@ -96,32 +95,25 @@ POST	/api/books	Create a new book
 PUT	/api/books/:id	Update a book by ID
 DELETE	/api/books/:id	Delete a book by ID
 
-Sample Book JSON
+---
 
-json
-Copy code
+## Sample Book JSON
 {
   "title": "The Great Gatsby",
   "author": "F. Scott Fitzgerald",
   "genre": "Novel",
   "year": 1925
 }
-Future Improvements
+
+---
+ 
+## Future Improvements
+
 Add book categories and management
-
 Implement search and filter functionality
-
 User authentication and admin roles
-
 Pagination and sorting for large book collections
-
 Enhanced UI/UX with modern frontend frameworks
 
 License
 This project is open-source and available under the MIT License.
-
-yaml
-Copy code
-GitHub portfolio.  
-
-Bro có muốn mình làm luôn không?
